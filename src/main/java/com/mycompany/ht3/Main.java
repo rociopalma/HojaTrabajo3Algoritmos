@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Github: https://github.com/rociopalma/HojaTrabajo3Algoritmos.
  */
 package com.mycompany.ht3;
 
@@ -18,6 +16,10 @@ public class Main {
         // TODO code application logic here
     Sorts st = new Sorts();
     st.generarNumeros();
+    st.gnomeSort(st.numeros, 0);
+    st.Gnome();
+    st.selectionSort(st.numeros);
+    st.mer();
     }
     
 }
